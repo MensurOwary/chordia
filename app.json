@@ -1,0 +1,12 @@
+{
+  "name": "chordia",
+  "displayName": "chordia",
+  "expo": {
+    "name": "chordia",
+    "slug": "chordia",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
