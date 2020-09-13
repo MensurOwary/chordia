@@ -1,5 +1,0 @@
-1. Get Chord Pairs
-    1.0. Having an option of remembering the ones that I am good/bad at
-    2.0. Generating the pairs once for each session
-2. Get Random Chords Each X seconds
-3. Have an overall in-app-time timer

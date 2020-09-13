@@ -27,18 +27,13 @@ export const savePair = (pair) => {
     if (!SAVED_PAIRS.includes(pair)) {
         SAVED_PAIRS.push(pair);
     }
-    console.log(SAVED_PAIRS);
 };
 
 export const nextPair = () => {
     if (chordListState.currentIndex >= PAIRS.length - 1) {
         if (SAVED_PAIRS.length === 0) {
-            console.log(`was ${PAIRS.length}`);
             PAIRS = _shuffle(_makeChordPairs());
-            console.log(`is ${PAIRS.length}`);
         } else {
-            console.log(`was ${PAIRS.length}`);
-            console.log(`is ${PAIRS.push(...SAVED_PAIRS)}`);
             PAIRS = _shuffle(PAIRS);
             SAVED_PAIRS = [];
         }
